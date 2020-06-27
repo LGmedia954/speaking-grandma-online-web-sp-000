@@ -15,7 +15,7 @@
 def speak_to_grandma(phrase)
   if phrase == "Hi Nana, how are you?" || "Hi!" == true
     return "HUH?! SPEAK UP, SONNY!"
-  elsif phrase == "Hi Nana, how are you?" && "Hi!"|| "Hi Nana, how are you?" && "Hi!"== true
+  elsif phrase == "Hi Nana, how are you?" && "Hi Nana, how are you?" || "Hi!" && "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == "WHAT DID YOU EAT TODAY?".upcase
     return "NO, NOT SINCE 1938!"
